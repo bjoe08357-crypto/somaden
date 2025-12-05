@@ -85,14 +85,6 @@ export default function Navbar() {
                   {item.label}
                 </Link>
               ))}
-              <div className="pt-8 flex flex-col gap-4">
-                  <p className="text-xs uppercase tracking-widest text-gray-500">Connect</p>
-                  <div className="flex justify-center gap-6">
-                     <div className="h-10 w-10 rounded-full bg-white/5 hover:bg-gold-500/20 transition-colors border border-white/10" />
-                     <div className="h-10 w-10 rounded-full bg-white/5 hover:bg-gold-500/20 transition-colors border border-white/10" />
-                     <div className="h-10 w-10 rounded-full bg-white/5 hover:bg-gold-500/20 transition-colors border border-white/10" />
-                  </div>
-              </div>
             </div>
           </div>
         )}

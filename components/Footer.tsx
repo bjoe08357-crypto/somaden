@@ -17,7 +17,7 @@ export default function Footer() {
     <footer className="border-t border-white/5 bg-night pt-16 pb-8">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-12">
-          <div className="lg:col-span-5 space-y-6">
+          <div className="lg:col-span-12 flex flex-col items-center space-y-6 text-center">
             <Link href="/" className="inline-block">
               <span className="font-display text-2xl font-bold text-white">Soma Den</span>
             </Link>
@@ -32,32 +32,6 @@ export default function Footer() {
                   {social}
                 </a>
               ))}
-            </div>
-          </div>
-          
-          <div className="lg:col-span-7 grid grid-cols-2 gap-8 sm:grid-cols-3">
-            <div>
-              <h4 className="font-bold text-white mb-4">Explore</h4>
-              <ul className="space-y-3 text-sm text-gray-400">
-                <li><Link href="/restaurant" className="hover:text-gold-400 transition-colors">The Restaurant</Link></li>
-                <li><Link href="/utilities" className="hover:text-gold-400 transition-colors">Token Utilities</Link></li>
-                <li><Link href="/roadmap" className="hover:text-gold-400 transition-colors">Roadmap</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-bold text-white mb-4">Project</h4>
-              <ul className="space-y-3 text-sm text-gray-400">
-                <li><Link href="/tokenomics" className="hover:text-gold-400 transition-colors">Tokenomics</Link></li>
-                <li><Link href="/faq" className="hover:text-gold-400 transition-colors">FAQ</Link></li>
-                <li><Link href="/contact" className="hover:text-gold-400 transition-colors">Contact Us</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-bold text-white mb-4">Legal</h4>
-              <ul className="space-y-3 text-sm text-gray-400">
-                <li><a href="#" className="hover:text-gold-400 transition-colors">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-gold-400 transition-colors">Terms of Service</a></li>
-              </ul>
             </div>
           </div>
         </div>
