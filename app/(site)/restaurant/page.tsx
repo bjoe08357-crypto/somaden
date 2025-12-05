@@ -126,7 +126,7 @@ export default function RestaurantPage() {
         <div className="rounded-3xl border border-gold-500/30 bg-gold-500/5 p-8 text-center">
           <p className="text-sm font-bold uppercase tracking-widest text-gold-400">Real World Scenario</p>
           <p className="mt-4 font-display text-2xl text-white">
-            "Bill = 500,000 IDR. Pay 150k in SOMA + 350k via Card → <span className="text-gold-400 underline decoration-gold-500/50 underline-offset-4">Get 15% Instant Discount</span>"
+            &quot;Bill = 500,000 IDR. Pay 150k in SOMA + 350k via Card → <span className="text-gold-400 underline decoration-gold-500/50 underline-offset-4">Get 15% Instant Discount</span>&quot;
           </p>
         </div>
       </section>

@@ -32,7 +32,7 @@ export default function RestaurantPreview({ compact = false }: RestaurantPreview
             </li>
             <li className="flex items-center gap-3">
               <span className="h-1.5 w-1.5 rounded-full bg-gold-500" />
-              Exclusive 'Hidden' Menu for Token Holders
+              Exclusive &apos;Hidden&apos; Menu for Token Holders
             </li>
           </ul>
           
@@ -53,7 +53,7 @@ export default function RestaurantPreview({ compact = false }: RestaurantPreview
         <div className="absolute inset-0 bg-gradient-to-t from-night/90 via-transparent to-transparent lg:bg-gradient-to-l" />
         
         <div className="absolute bottom-8 left-8 right-8 flex flex-wrap gap-2">
-          {['Cozy Lighting', 'Social Tables', 'Chef’s Bar'].map((tag) => (
+          {['Cozy Lighting', 'Social Tables', 'Chef&rsquo;s Bar'].map((tag) => (
             <span key={tag} className="rounded-full border border-white/10 bg-black/40 px-4 py-2 text-xs font-semibold text-white backdrop-blur-md">
               {tag}
             </span>
