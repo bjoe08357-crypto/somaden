@@ -94,7 +94,7 @@ export default function RestaurantPage() {
         
         <div className="relative h-96 rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
            <img 
-             src="https://images.unsplash.com/photo-1514362545857-3bc16549766b?q=80&w=2070&auto=format&fit=crop" 
+             src="https://images.unsplash.com/photo-1572116469696-31de0f17cc34?q=80&w=2074&auto=format&fit=crop" 
              alt="Bar Detail" 
              className="absolute inset-0 h-full w-full object-cover"
            />

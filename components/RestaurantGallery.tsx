@@ -7,12 +7,12 @@ const images = [
     span: 'col-span-1 md:col-span-2 row-span-2',
   },
   {
-    src: 'https://images.unsplash.com/photo-1550966871-3ed3c622101c?q=80&w=2070&auto=format&fit=crop',
+    src: 'https://images.unsplash.com/photo-1600255821058-c4f89958d700?q=80&w=2070&auto=format&fit=crop', // Updated Chef Plating
     alt: 'Chef Plating',
     span: 'col-span-1',
   },
   {
-    src: 'https://images.unsplash.com/photo-1514362545857-3bc16549766b?q=80&w=2070&auto=format&fit=crop',
+    src: 'https://images.unsplash.com/photo-1572116469696-31de0f17cc34?q=80&w=2074&auto=format&fit=crop', // Updated Cocktail Bar
     alt: 'Cocktail Bar',
     span: 'col-span-1',
   },
